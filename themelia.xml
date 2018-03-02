@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE html>
 <html b:version='2' class='v2' expr:dir='data:blog.languageDirection' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
-  <head>
-    <meta content='True' name='HandheldFriendly'/>
-  
+<head>
+<meta content='True' name='HandheldFriendly'/>
 <meta content='width=device-width, initial-scale=1' name='viewport'/>
-
 <b:if cond='data:blog.searchLabel'>
 <title><data:blog.pageName/> - <data:blog.title/></title>
 </b:if>
@@ -25,13 +23,12 @@
   <meta expr:content='data:blog.metaDescription' name='description'/>
 </b:if>
 <b:if cond='data:blog.pageType == &quot;index&quot;'>
-<meta content='blogger, web, kod, ipuçları, eklentileri, tema, şablon, sosyal medya, blogculuık, blogging' name='keywords'/>
+<meta content='meta keywords' name='keywords'/>
 </b:if>
 <link href='http://demo.ghost.io/favicon.ico' rel='shortcut icon'/>
 <link expr:href='data:blog.url' rel='canonical'/>
 <link href='http://www.zaferzent.com/feeds/posts/default' rel='alternate' title='Web Günlüğü - Atom' type='application/atom+xml'/>
 <link href='http://www.zaferzent.com/feeds/posts/default?alt=rss' rel='alternate' title='Web Günlüğü - RSS' type='application/rss+xml'/>
-
 <!-- Open Graph -->
 <b:if cond='data:blog.pageType == &quot;item&quot;'>
 <meta expr:content='data:blog.canonicalUrl' property='og:url'/>
@@ -67,32 +64,18 @@
 <b:if cond='data:blog.metaDescription'>
 <meta expr:content='data:blog.metaDescription' name='twitter:description'/>
 </b:if>
-
-
   &lt;style type=&quot;text/css&quot;&gt;&lt;!-- /*<b:skin><![CDATA[*/]]></b:skin>
-
-
-
-
-
 <link href='https://zaferzent.github.io/unsemantic.min.css' id='themelia-unsemantic-css' media='all' rel='stylesheet' type='text/css'/>
-
-
 <link href='https://zaferzent.github.io/style.min.css' id='themelia-style-css' media='all' rel='stylesheet' type='text/css'/>
-
-
-
 <style id='themelia-style-inline-css' type='text/css'>
 .site-header{background-color:#fff;}.site-header:after{background-color:rgba(39,55,64,0.14);}.site-title{font-family:Roboto, Helvetica, Arial, sans-serif;font-weight:700;font-style:normal;font-size:1.789em;line-height:1.2;letter-spacing:0;text-transform:none;}.site-title-wrap .site-title, .site-title-wrap:visited .site-title{color:#22222A;}.site-title-wrap:hover .site-title{color:#22222A;}.site-title-wrap:active .site-title{color:#22222A;}.site-description{color:#6f767a;font-family:Roboto, Helvetica, Arial, sans-serif;font-weight:400;font-style:normal;font-size:0.789em;line-height:1.2;letter-spacing:0.025em;text-transform:none;}.sm-simple a{font-family:Roboto, Helvetica, Arial, sans-serif;font-weight:500;font-style:normal;font-size:16px;line-height:1.4;letter-spacing:0;text-transform:none;}.sm-simple a, .sm-simple a:visited{color:rgba(34, 34, 42, 1);}.sm-simple a:hover, .sm-simple &gt; li &gt; a.highlighted{color:#000;}.sm-simple a:active, .sm-simple &gt; li &gt; a.highlighted:active{color:#000;}.sm-simple &gt; li &gt; a:hover:before,.sm-simple &gt; li &gt; a.highlighted:before{background:#B10E1E;}.sm-simple &gt; li.current-menu-item &gt; a:before,.sm-simple &gt; li.current_page_item &gt; a:before,.sm-simple &gt; li.current_page_parent &gt; a:before,.sm-simple &gt; li.current-page-ancestor &gt; a:before{background:#BA321D;}.sm-simple .sub-menu a, .sm-simple .sub-menu a:visited{color:#121212;}.sm-simple .sub-menu a:hover, .sm-simple .sub-menu li a.highlighted{color:#b10e1e;}.sm-simple .sub-menu a:active, .sm-simple .sub-menu li a.highlighted:active{color:#b10e1e;}.sm-simple .sub-menu li a{background-color:#fff;}.sm-simple .sub-menu li a:hover, .sm-simple .sub-menu li a.highlighted{background-color:#fff;}.sm-simple .sub-menu li a:active{background-color:#fff;}.sm-simple .sub-menu{border-color:rgba(39, 55, 64, 0.09);}.sm-simple .sub-menu li{border-color:rgba(39, 55, 64, 0.09);}.sm-simple .sub-menu ul{border-top-color:rgba(39, 55, 64, 0.09);}body{font-family:Roboto, Helvetica, Arial, sans-serif;font-weight:400;font-style:normal;line-height:1.6;letter-spacing:0;color:#22222A;}a{color:#005ea5;}a:visited{color:#005ea5;}a:hover{color:#2e3191;}a:active{color:#2e3191;}h1, h2, h3, h4, h5, h6{font-family:Roboto, Helvetica, Arial, sans-serif;font-weight:700;font-style:normal;line-height:1.2;}.entry-title a{color:#121212;letter-spacing:0;text-transform:none;}.entry-title a:visited{color:#121212;}.entry-title a:hover{color:#333;}.entry-title a:active{color:#444;}.singular .entry-title{letter-spacing:0;text-transform:none;color:#121212;}.singular-page .entry-title{letter-spacing:0;text-transform:none;color:#121212;}#content h1{letter-spacing:0;text-transform:none;color:#121212;}#content h2{letter-spacing:0;text-transform:none;color:#121212;}#content h3{letter-spacing:0;text-transform:none;color:#121212;}#content h4{letter-spacing:0;text-transform:none;color:#121212;}#content h5{letter-spacing:0;text-transform:none;color:#121212;}#content h6{letter-spacing:0;text-transform:none;color:#121212;}breadcrumb-trail, .secondary-text, .wp-caption-text{color:#6d7377;}.breadcrumb-trail a, .breadcrumb-trail a:visited, .entry-more-link, .entry-more-link:visited, .social-navigation a, .social-navigation a:visited{color:#141414;}.breadcrumb-trail a:hover, .entry-more-link:hover, .social-navigation a:hover{color:rgba(0,0,0,0.7);}.breadcrumb-trail a:active, .entry-more-link:active, .social-navigation a:active{color:rgba(0,0,0,0.7);}.archive .post, .blog .post, .search .entry{border-bottom-color:rgba(39, 55, 64, 0.1);}hr{border-bottom-color:rgba(39, 55, 64, 0.1);}.author-info{border-top-color:rgba(39, 55, 64, 0.45);}h4.comments-number{border-top-color:rgba(39, 55, 64, 0.45);}.post-navigation .nav-links{border-top-color:rgba(39, 55, 64, 0.45);}.main .sidebar li{border-bottom-color:rgba(39, 55, 64, 0.1);}.sidebar-subsidiary{border-top-color:rgba(39, 55, 64, 0.1);}.sidebar-footer{border-top-color:rgba(39, 55, 64, 0.1);}.site-footer{border-top-color:rgba(39, 55, 64, 0.1);}
 body { font-size: 1em;} @media (min-width: 600px) and (max-width: 1199px) { body {font-size: 1.063em}}  @media (min-width: 1200px) and (max-width: 1799px) { body {font-size: 1.125em}}  @media (min-width: 1800px) { body {font-size: 1.188em}} h1{font-size:1.602em}h2{font-size:1.424em}.big,.lead,blockquote,h3{font-size:1.266em}h4{font-size:1.125em}h5,h6{font-size:1em}blockquote cite,small,.small,sup{font-size:.889em}.smaller{font-size:.79em} @media (min-width: 600px)  and (max-width: 1199px) { h1{font-size:2.074em}h2{font-size:1.728em}h3{font-size:1.44em}.big,.lead,blockquote,h4{font-size:1.2em}h5,h6{font-size:1em}blockquote cite,small,.small,sup{font-size:.833em}.smaller{font-size:.75em} }  @media (min-width: 1200px) and (max-width: 1799px) { h1{font-size:2.441em}h2{font-size:1.953em}h3{font-size:1.563em}.big,.lead,blockquote,h4{font-size:1.25em}h5,h6{font-size:1em}blockquote cite,small,.small,sup{font-size:.889em}.smaller{font-size:.75em} }  @media (min-width: 1800px) { h1{font-size:3.157em}h2{font-size:2.369em}h3{font-size:1.777em}.big,.lead,blockquote,h4{font-size:1.333em}h5,h6{font-size:1em}blockquote cite,small,.small,sup{font-size:.889em}.smaller{font-size:.75em} } .grid-container {max-width: 1340px}
-
   ul.menu-primary-items li{padding: 0 10px;}
   ul.menu-primary-items li a{font-weight: 500;}
 </style>
 <link href='https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C300%2C300italic%2Cregular%2Citalic%2C500%2C500italic%2C700%2C700italic%2C900%2C900italic&amp;subset=latin' id='kirki_google_fonts-css' media='all' rel='stylesheet' type='text/css'/>
 
 <style>
-
 select {
   width: 94%;
   margin: 11px 0 11px 2%;
