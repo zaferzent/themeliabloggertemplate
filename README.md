@@ -2,4 +2,4 @@
 Themelia Free Responsive Blogger Template
 
 
-![Hyde screenshot](https://3.bp.blogspot.com/-DFxQYS5Of-g/WSCaKbv_-FI/AAAAAAAAGEE/3sjeS38qsmYIDicil3PSDdKxmA4RRiLlACPcB/s1600/hyde-blogger-template.png)
+![Hyde screenshot](https://lh3.googleusercontent.com/-bJlk8vH_4xA/WpnivTD-PDI/AAAAAAAAGhM/cICHtzIdeH8OMBAJx_ORjsHcfwGde4MNQCLcBGAs/s1600/themelia.png)
